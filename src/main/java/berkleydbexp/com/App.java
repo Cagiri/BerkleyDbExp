@@ -32,7 +32,7 @@ public class App {
 
 	private static void saveData(Environment dbEnv) {
 		DatabaseConfig dbConf = new DatabaseConfig();
-		// db will be created if not exits
+		// db will be created if not exits test
 		dbConf.setAllowCreate(true);
 
 		// create/open testDB using config
